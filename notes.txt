@@ -1,1 +1,2 @@
-SG
+git init
+git add notes.txt
