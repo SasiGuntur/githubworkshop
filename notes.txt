@@ -1,1 +1,30 @@
-Test again
+1.	Directory/ repository
+2.	CMD - git config - -global user.name "SG"
+3.	git config - -list
+4.	git config - -global user.email g.sasidhar1997@gmail.com
+5.	to change editor:  git config - -global core.editor "notepad"
+6.	to open manual page: git config - -help
+7.	cls – to clear screen
+8.	git status – tells what repo is doing right now
+9.	git init (to make a folder a repo)
+10.	git add notes.txt(file name)
+11.	git commit
+12.	git commit -m “Added notes.txt file”
+13.	make changes in notes.txt file
+14.	git status
+15.	“Changes not staged for commit:” 
+16.	git commit -a (to commit changes)
+17.	git log
+18.	git log - -oneline
+19.	git branch
+20.	 git add -all (adding all files in repo/directory)
+
+Accessing Older Versions
+To restore any of the older versions
+git checkout <commitid> <filename>
+git checkout 6b838fe notes.txt
+
+to cancel restoring the old version, do this before committing original version
+git reset HEAD notes.txt
+
+git push origin -u master
